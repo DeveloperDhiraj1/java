@@ -4,9 +4,8 @@ import java.net.*;
 
 public class Http {
 
-    // GET request
     public static void sendGet() throws IOException {
-        URL url = new URL("https://httpbin.org/get"); // Replace with your API endpoint
+        URL url = new URL("https://httpbin.org/get");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
         con.setRequestMethod("GET");
@@ -14,7 +13,7 @@ public class Http {
         int responseCode = con.getResponseCode();
         System.out.println("GET Response Code :: " + responseCode);
 
-        if (responseCode == HttpURLConnection.HTTP_OK) { // success
+        if (responseCode == HttpURLConnection.HTTP_OK) {
             BufferedReader in = new BufferedReader(new InputStreamReader(con.getInputStream()));
             String inputLine;
             StringBuilder response = new StringBuilder();
@@ -30,9 +29,8 @@ public class Http {
         }
     }
 
-    // POST request
     public static void sendPost() throws IOException {
-        URL url = new URL("https://httpbin.org/post"); // Replace with your API endpoint
+        URL url = new URL("https://httpbin.org/post");
         HttpURLConnection con = (HttpURLConnection) url.openConnection();
 
         con.setRequestMethod("POST");
