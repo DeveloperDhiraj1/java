@@ -21,7 +21,7 @@ public class Stringexample {
         System.out.println("Index of 'o': " + combined.indexOf('o'));
 
         System.out.println("Uppercase: " + combined.toUpperCase());
-        System.out.println("Replace 'l' with 'x': " + str1.replace('l', 'x'));
+        System.out.println("Replace 'h' with 'x': " + str1.replace('h', 'x'));
 
         String csv = "apple,orange,banana";
         String[] fruits = csv.split(",");
