@@ -3,7 +3,7 @@ public class Stringexample {
 
     public static void main(String[] args) {
         String str1 = "Hello";
-        String str2 = ("Priya");
+        String str2 = ("amit");
 
         String combined = str1 + " " + str2;
         System.out.println("Concatenation: " + combined);
@@ -17,7 +17,7 @@ public class Stringexample {
         System.out.println("Equals (case-sensitive): " + str1.equals("hello"));
         System.out.println("Equals (ignore case): " + str1.equalsIgnoreCase("hello"));
 
-        System.out.println("Contains 'World': " + combined.contains("priya"));
+        System.out.println("Contains 'World': " + combined.contains("amit"));
         System.out.println("Index of 'o': " + combined.indexOf('o'));
 
         System.out.println("Uppercase: " + combined.toUpperCase());
