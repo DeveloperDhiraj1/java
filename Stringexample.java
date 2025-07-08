@@ -12,7 +12,7 @@ public class Stringexample {
 
         System.out.println("Char at index 4: " + combined.charAt(4));
 
-        System.out.println("Substring (6-11): " + combined.substring(6));
+        System.out.println("Substring (4-11): " + combined.substring(4));
 
         System.out.println("Equals (case-sensitive): " + str1.equals("hello"));
         System.out.println("Equals (ignore case): " + str1.equalsIgnoreCase("hello"));
