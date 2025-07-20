@@ -24,11 +24,11 @@ public class AnimalTest {
 
     public static void main(String[] args) {
         Horse h = new Horse();
-        h.eat();    // Inherited method
-        h.run();    // Horse-specific method
+        h.eat();
+        h.run();
 
         Cat c = new Cat();
-        c.eat();    // Inherited method
-        c.meow();   // Cat-specific method
+        c.eat();
+        c.meow();
     }
 }
