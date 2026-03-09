@@ -12,7 +12,7 @@ class Second {
 
         }
         for (int j = 0; j < arr.length; j++) {
-            if (arr[j] > secondmax && arr[j] < max) {
+            if (arr[j] > secondmax && arr[j] != max) {
                 secondmax = arr[j];
             }
         }
